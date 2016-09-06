@@ -1,23 +1,106 @@
-# Hello Theme
+#1. Theme Settings
 
-A blueprint to develop your own themes.
+##1.1 Theme
 
-This theme is minimal on purpose. It comes with a tiny set of files that you can use to get started.
+###1.1.1. Theme Color 
+You can choose between 5 colors for your theme: Yellow, Blue, Green, Red and Pink.
 
-## Install this theme
+###1.1.2. Google Fonts 
+You can use one Google font. Therefore insert the fonts title and styles you want to use.
 
-You can install this theme from within your Pagekit installation. Open the Marketplace in your admin panel, find the theme and hit the *Install* button.
+Example: Roboto and 300,400,700
 
-Alternatively, you can clone this repository or download all files from Github. Make sure this theme is located under `/packages/pagekit/theme-hello`.
+###1.1.3. Navigation Sticky Mode 
+If active, the "Sticky Mode" takes care the navigationbar slides in while scrolling up.
 
-## How to develop a theme
+###1.1.4. Copyright 
+Your own copyright. It is shown in the footer on the left.
 
-Just code away in the provided files. However, you may also want to read the [Theme Guide](http://pagekit.com/docs/developer-guides/themes) in the Pagekit Documentation.
+##1.2. Widgets
 
-For further inspiration, have a look at the default [One theme](https://github.com/pagekit/theme-one) which makes use of many more Pagekit features.
+###1.2.1. Auto Widget Size 
+If active, all widgets will be autosized. That means a single widget fills the whole width of the widget-position. Two widgets split the space in two same-width-widgets and so on.
 
-## No styles included
+If you unset this option you have to set the size of each widget manually in the widget options! Check 3.5.
 
-The included `css/theme.css` lists all CSS classes that are rendered by the Pagekit core extensions (such as menus or the blog). These classes come without any styling. Add your own styling in order for your theme to make the default Pagekit views look pretty.
+###1.2.2. Top and Bottom Widget Positions 
+You can choose a background image for the top and the bottom widget position. This image can be overridden in the page settings. Siehe 2.3
 
-Alternatively, you can load CSS provided by the [UIkit front-end framework](http://getuikit.com/). This is completely optional, but will style the default views for you. The Pagekit admin interface and the default Pagekit themes are built with UIkit.
+#2. Page Settings
+
+##2.1. Headline
+
+###2.1.1. Hide Headline 
+Hide the page headline (H1).
+
+###2.1.2. H2 Style 
+If active the H1 headline will look like H2. This is useful if H1 is followed by running text instead of H2. This will save a consistent style.
+
+##2.2. Content
+
+Centered Centered content.
+
+##2.3. Top Widgets / Bottom Widgets
+
+Set a background image or override the image of the theme settings. Check 1.2.2.
+
+##2.4. Header Options
+
+The Header Option activates a section primary under the navigation bar and shows images and content depending on your settings. The background fits to your window width.
+
+##2.4.1. Background Image 
+Choose your background image.
+
+###2.4.2. Parallax 
+Use parallex effect.
+
+###2.4.3. Color Overlay 
+Overlay your image with color.
+
+###2.4.4. Transperent 
+Transparency strength.
+
+###2.4.5. Headlines 
+You can place 2 headlines.
+
+###2.4.6. Align 
+Align the headlines to the left, centered or to the right.
+
+#3. Widget Settings
+
+##3.1. Panel Style 
+Choose between a few styling options.
+
+##3.2. Hide Headline 
+Hide the widget headline.
+
+##3.3. Hide Widget 
+Hide the widget on mobile devices.
+
+##3.4. Invert Color 
+Turn your text color into white. Its useful if have a dark background in use.
+
+##3.5. Widget Size 
+The widget size. This only works if "Widget Auto Size" is disabled in the theme settings! Check 1.2.1.
+
+###3.5.1. Widget Push Left 
+Indent your widget to the right. This only works if "Widget Auto Size" is disabled in the theme settings! Check 1.2.1.
+
+These are possible sizes:
+
+Class	Description
+`1-1`	Fills 100% of the available width.
+`1-2`	Divides the grid into halves.
+`1-3` to `2-3`	Divides the grid into thirds.
+`1-4` to `3-4`	Divides the grid into fourths.
+`1-5` to `4-5`	Divides the grid into fifths.
+`1-6` to `5-6`	Divides the grid into sixths.
+`1-10` to `9-10`	Divides the grid into tenths.
+
+#4. Other
+
+##4.1. uikit 
+You can use all uikit styles in this theme. More infos here: [getuikit.com](http://www.getuikit.com)
+
+##4.2. Colors 
+Every theme comes with 3 classes for the colors. The main color: `.main`, light `.light` and dark `.dark`.
