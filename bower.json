@@ -1,0 +1,7 @@
+{
+    "name": "heisenberg",
+    "dependencies": {
+        "uikit": "*"
+    },
+    "private": true
+}

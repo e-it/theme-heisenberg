@@ -1,0 +1,18 @@
+{
+    "name": "ehrenwert/heisenberg",
+    "type": "pagekit-theme",
+    "version": "1.0",
+    "title": "Heisenberg",
+    "description": "A simple Ehrenwert theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agentur ehrenwert UG ",
+            "email": "briefkasten@ehrenwert-it.de",
+            "homepage": "www.ehrenwert-it.de"
+        }
+    ],
+    "extra": {
+        "image": "image.jpg"
+    }
+}

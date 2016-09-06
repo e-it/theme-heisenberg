@@ -1,0 +1,126 @@
+
+@import "uikit/uikit.less";
+
+
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@tm-padding-v:	20px 0;
+
+.main {
+	color: @color-main;
+}
+
+.light {
+	color: @color-light;
+}
+
+.dark {
+	color: @color-dark;
+}
+
+.white {
+	color: #fff;
+}
+
+.uk-navbar {
+	background: @color-main;
+}
+
+.uk-navbar-brand {
+	color: @color-light;
+}
+
+.tm-header {
+	padding: @tm-padding-v;
+	background: @color-main;
+}
+
+.tm-header-container {
+	background: @color-main;
+  position: relative;
+  z-index: 100;
+}
+.tm-header-headline {
+  z-index: 30;
+}
+.tm-headline1 {
+  color: @color-main;
+  font-size: 5em;
+  line-height: 1.4em !important;
+  font-size: 6em;
+  font-size: 4.5vw;
+}
+.tm-headline2 {
+  color: @color-light;
+  font-size: 3em;
+  font-size: 1.5vw;
+}
+@media (max-width: 768px) {
+  .tm-headline1 {
+    font-size: 2em;
+    font-size: 6vw;
+  }
+  .tm-headline2 {
+    color: #FCF4D1;
+    font-size: 1em;
+    font-size: 4vw;
+  }
+}
+#top-header {
+  position: relative;
+}
+.tm-header-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+}
+.tm-header-img {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tm-footer {
+	background: @color-main;
+	color: @color-dark;
+	padding: @tm-padding-v;
+}
+
+.tm-footer a {
+	color: @color-light!important;
+	background: none!important;
+}
+
+.tm-footer a:hover {
+	color: @color-dark!important;
+	text-decoration: none;
+}
+
+
+.tm-footer-menu li {
+    display: inline-block;
+}
+
+.tm-footer li > a {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 0;
+}
+
+.tm-iconnav {
+	text-align: right;
+}
+
+.tm-iconnav li {
+    display: inline-block;
+    list-style: outside none none;
+}
