@@ -24,7 +24,7 @@ If active, all widgets will be autosized. That means a single widget fills the w
 If you unset this option you have to set the size of each widget manually in the widget options! Check 3.5.
 
 ###1.2.2. Top and Bottom Widget Positions 
-You can choose a background image for the top and the bottom widget position. This image can be overridden in the page settings. Siehe 2.3
+You can choose a background image for the top and the bottom widget position. This image can be overridden in the page settings. Check 2.3
 
 #2. Page Settings
 
