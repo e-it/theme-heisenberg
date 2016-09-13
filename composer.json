@@ -1,7 +1,7 @@
 {
     "name": "ehrenwert/heisenberg",
     "type": "pagekit-theme",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Heisenberg",
     "description": "A simple Ehrenwert theme",
     "license": "MIT",
