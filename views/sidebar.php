@@ -8,9 +8,9 @@
 	<div>
 	
 	    <div class="uk-panel <?= $widget->theme['panel'] ?>">
-	
-	        <h3 class="uk-panel-title <?= $hide_headline ?>"><?= $widget->title ?></h3>
-	
+		<?php if (!$hide_headline) : ?>
+	        	<h3 class="uk-panel-title <?= $hide_headline ?>"><?= $widget->title ?></h3>
+		<?php endif; ?>
 	        <?= $widget->get('result') ?>
 	
 	    </div>
